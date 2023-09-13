@@ -1,0 +1,40 @@
+.services-submenu {
+  width: 150px;
+  top: 73px;
+  padding-left: 10px;
+
+  position: absolute;
+  list-style: none;
+  text-align: start;
+}
+.services-submenu li {
+  background-color: rgb(20, 20, 159);
+  cursor: pointer;
+}
+.services-submenu li a:hover {
+  background: rgb(110, 126, 246);
+}
+.submenu-item {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-align: start;
+  text-decoration: none;
+  color: white;
+}
+.services-submenu.clicked {
+  display: none;
+}
+@media screen and (max-width: 780px) {
+  .services-submenu {
+    width: 150px;
+    top: 73px;
+    padding-left: 10px;
+
+    left: 50px;
+
+    position: absolute;
+    list-style: none;
+    text-align: start;
+  }
+}

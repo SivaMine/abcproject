@@ -1,0 +1,14 @@
+.client-row1 {
+  margin-top: 100px;
+}
+.clientimg1 {
+  width: 200px;
+}
+.client-col1 {
+  margin: 10px;
+}
+@media screen and (max-width: 780px) {
+  .clientimg1 {
+    margin-left: 130px;
+  }
+}

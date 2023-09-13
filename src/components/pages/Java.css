@@ -1,0 +1,55 @@
+.javaimg1 {
+  width: 300px;
+  margin-top: 20px;
+}
+.javarow-1 {
+  background-color: black;
+  margin-top: 200px;
+  border-radius: 10px;
+}
+.java-head1 {
+  border: 2px solid gray;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+.java-head2 {
+  color: black;
+  background-color: aqua;
+  text-align: center;
+  font-weight: bold;
+}
+.javacol-2 {
+  border: 10px solid green;
+  margin-left: 40px;
+  border-radius: 10px;
+}
+.java-head3 {
+  color: blue;
+  font-weight: bold;
+}
+.java-li1 {
+  color: azure;
+  list-style-type: square;
+  margin-left: 30px;
+  font-weight: bold;
+}
+@media screen and (max-width: 780px) {
+  .javaimg1 {
+    margin-left: 80px;
+    margin-bottom: 20px;
+  }
+  .javacol-2 {
+    margin-top: 30px;
+    margin-right: 20px;
+  }
+  .java-head1,
+  .java-head2,
+  .java-head3,
+  .java-li1,
+  .java-li2 {
+    margin-right: 50px;
+  }
+}

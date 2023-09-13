@@ -1,0 +1,58 @@
+.sql-img1 {
+  width: 300px;
+  margin-top: 20px;
+}
+.sql-row1 {
+  background-color: black;
+  margin-top: 200px;
+  border-radius: 10px;
+}
+.sql-col2 {
+  border: 10px solid green;
+  margin-left: 40px;
+  border-radius: 10px;
+}
+.sql-head1 {
+  border: 2px solid gray;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+.sql-head2 {
+  color: black;
+  background-color: aqua;
+  text-align: center;
+  font-weight: bold;
+}
+.sql-head3 {
+  color: white;
+  font-weight: bold;
+}
+.sql-li1 {
+  color: blue;
+  list-style-type: square;
+  margin-left: 30px;
+  font-weight: bold;
+}
+@media screen and (max-width: 780px) {
+  .sql-img1 {
+    margin-left: 80px;
+    margin-bottom: 20px;
+  }
+  .sql-col2 {
+    margin-top: 30px;
+    width: 420px;
+  }
+  .sql-head3 {
+    overflow: hidden;
+  }
+  .sql-head1,
+  .sql-head2,
+  .sql-head3,
+  .sql-li1,
+  .sql-li2 {
+    margin-right: 50px;
+  }
+}

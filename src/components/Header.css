@@ -1,0 +1,51 @@
+.headerimg1 {
+  width: 100px;
+}
+.header-container-1 {
+  margin-top: 100px;
+}
+.header-container-2 {
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+.header-col-2 {
+  margin-top: 100px;
+  margin-left: 70px;
+}
+.header-head-1 {
+  color: black;
+  font-weight: bold;
+}
+.header-head-2 {
+  color: black;
+  font-weight: bold;
+  margin-left: 60px;
+}
+.header-head-3 {
+  color: black;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.icon-clock1,
+.icon-phone1,
+.icon-post1 {
+  color: blue;
+}
+.header-span-1 {
+  margin-right: 10px;
+}
+.headercol3 {
+  margin-top: 35px;
+}
+.word-wrap {
+  font-weight: bold;
+  font-size: 20px;
+  color: orange;
+
+  background-color: black;
+}
+@media screen and (max-width: 780px) {
+  .headerimg1 {
+    margin-left: 170px;
+  }
+}

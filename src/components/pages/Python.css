@@ -1,0 +1,75 @@
+.imi1 {
+  width: 300px;
+  margin-top: 20px;
+}
+.pyrow1 {
+  background-color: black;
+  margin-top: 200px;
+  border-radius: 10px;
+}
+.pycol2 {
+  border: 10px solid green;
+  margin-left: 40px;
+  border-radius: 10px;
+}
+.py-head1 {
+  border: 2px solid gray;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+.py-head2 {
+  color: black;
+  background-color: aqua;
+  text-align: center;
+  font-weight: bold;
+}
+.py-head3 {
+  color: blue;
+  font-weight: bold;
+}
+.py-li1 {
+  color: azure;
+  list-style-type: square;
+  margin-left: 30px;
+  font-weight: bold;
+}
+.py-head4 {
+  border: 2px solid white;
+  width: 200px;
+  background-color: aqua;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-top: 20px;
+  padding: 15px;
+}
+.py-li2 {
+  color: azure;
+  margin-top: 25px;
+  color: blueviolet;
+  list-style-type: square;
+  margin-left: 30px;
+  font-weight: bold;
+  font-size: 20px;
+}
+@media screen and (max-width: 780px) {
+  .imi1 {
+    margin-left: 80px;
+    margin-bottom: 20px;
+  }
+  .py-col2 {
+    margin-top: 30px;
+    margin-right: 20px;
+  }
+  .py-head1,
+  .py-head2,
+  .py-head3,
+  .py-li1,
+  .py-li2 {
+    margin-right: 50px;
+  }
+}

@@ -1,0 +1,64 @@
+.divis1 {
+  margin-top: 150px;
+}
+.infra-container-1 {
+  margin-top: 50px;
+}
+.infra-container-2 {
+  margin-top: 50px;
+}
+.hea1 {
+  font-weight: bold;
+  color: aqua;
+  font-size: 35px;
+}
+.i1 {
+  width: 350px;
+}
+.i2 {
+  width: 350px;
+}
+.i3 {
+  width: 350px;
+}
+.divis2 {
+  margin-top: 40px;
+}
+.cap1 {
+  text-align: center;
+  font-size: 25px;
+}
+.divis3,
+.divis4,
+.divis5 {
+  margin-top: 50px;
+}
+.pa1 {
+  font-size: 15px;
+}
+.i4,
+.i7 {
+  width: 350px;
+}
+.i5,
+.i8 {
+  width: 350px;
+}
+.i6,
+.i9 {
+  width: 350px;
+}
+@media screen and (max-width: 780px) {
+  .divis4,
+  .divis5 {
+    margin-left: 50px;
+  }
+  .i4,
+  .i5,
+  .i6,
+  .i7,
+  .i8,
+  .i9 {
+    margin-top: 30px;
+  }
+}

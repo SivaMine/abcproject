@@ -1,0 +1,58 @@
+.address {
+  margin-top: 150px;
+}
+.heading {
+  font-weight: bold;
+}
+.contact-container-1 {
+  margin-top: 30px;
+}
+.form-head {
+  margin-left: 10px;
+}
+.form-control {
+  margin: 10px;
+}
+.form1 {
+  margin-top: 150px;
+  margin-left: 40px;
+}
+.span1,
+.span2,
+.span3 {
+  display: block;
+  height: 60px;
+  color: blue;
+}
+.icon-phone,
+.icon-address,
+.icon-mail {
+  margin-right: 15px;
+}
+.div-contact1 {
+  margin-top: 80px;
+}
+.heading1 {
+  font-weight: bold;
+}
+.div2 {
+  margin-top: 100px;
+}
+.span-para {
+  color: black;
+}
+@media screen and (max-width: 780px) {
+  .form-head {
+    margin-left: 100px;
+    margin-top: 20px;
+  }
+  input[type="text"] {
+    width: 80%;
+  }
+  input[type="email"] {
+    width: 80%;
+  }
+  #mess {
+    width: 80%;
+  }
+}

@@ -1,0 +1,70 @@
+.marq-img {
+  width: 200px;
+}
+.footer-row-1 {
+  margin-top: 150px;
+}
+.footer-container-2 {
+  background-color: white;
+  max-width: fit-content;
+  margin-top: 50px;
+}
+.footer-div-1 {
+  background-color: black;
+  margin-top: 70px;
+  width: 100%;
+}
+.footer-head1 {
+  text-align: center;
+  font-weight: bold;
+  color: deeppink;
+}
+
+.footer-container-3 {
+  margin-top: 100px;
+}
+.footer-head2 {
+  text-decoration: underline;
+  font-family: Arial;
+  text-align: center;
+  color: aliceblue;
+}
+.footer-head3 {
+  text-align: center;
+  font-weight: lighter;
+  color: white;
+}
+.footer-para-1 {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+.footer-span-1 {
+  margin-left: 20px;
+}
+.footer-icon-1 {
+  color: blueviolet;
+}
+.footer-col-3 {
+  margin-top: 100px;
+}
+.footer-row-4 {
+  text-align: center;
+}
+.footer-para-2 {
+  color: purple;
+}
+
+.footer-frame {
+  width: 600px;
+  height: 450px;
+}
+@media screen and (max-width: 780px) {
+  .footer-frame {
+    width: 450px;
+    margin-top: 50px;
+  }
+  .footer-para-2 {
+    margin-top: 20px;
+  }
+}

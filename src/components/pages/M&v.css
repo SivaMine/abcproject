@@ -1,0 +1,50 @@
+.im1 {
+  width: 300px;
+  margin-top: 20px;
+}
+.head1 {
+  font-weight: bold;
+  color: orange;
+  font-size: 20px;
+}
+.rowmv {
+  margin-top: 100px;
+}
+.divi1 {
+  margin-top: 100px;
+  margin-left: 90px;
+}
+.par1 {
+  font-size: small;
+}
+.head2 {
+  font-weight: bold;
+  color: orange;
+  font-size: 20px;
+}
+.par2 {
+  font-size: small;
+}
+.im2 {
+  width: 1200px;
+}
+.mv-container1 {
+  margin-top: 72px;
+}
+@media screen and (max-width: 780px) {
+  .im2 {
+    width: 500px;
+  }
+  .im1 {
+    margin-bottom: 50px;
+    margin-left: 100px;
+  }
+  .head1,
+  .head2 {
+    margin-left: 100px;
+  }
+  .par1,
+  .par2 {
+    padding-right: 100px;
+  }
+}

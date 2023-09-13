@@ -1,0 +1,84 @@
+.Navbar {
+  height: 10vh;
+  background-color: limegreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+
+  width: 100%;
+
+  z-index: 99;
+}
+.logo {
+  width: 60px;
+}
+
+.nav-items {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  width: 70vw;
+  justify-content: flex-end;
+  margin-right: 5rem;
+  z-index: 1;
+}
+.nav-item {
+  display: flex;
+  align-items: center;
+  height: 15vh;
+}
+.nav-item a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  margin-right: 2rem;
+  padding: 6px 16px;
+  border-radius: 5px;
+}
+.nav-item a:hover {
+  background-color: darkblue;
+}
+.mobile-menu-icon {
+  display: none;
+}
+@media screen and (max-width: 780px) {
+  .logo {
+    display: flex;
+    position: absolute;
+    top: 2px;
+    left: 35px;
+  }
+  .nav-items {
+    display: none;
+  }
+  .nav-items-mobile {
+    position: absolute;
+    display: block;
+    list-style: none;
+    background-color: black;
+    left: 0;
+    top: 75px;
+    transition: all 0.5s ease-out;
+    width: 100%;
+    z-index: 1;
+  }
+  .nav-item {
+    margin-left: 150px;
+    padding: 30px;
+    width: 100%;
+    transition: all 0.5s ease;
+  }
+  .mobile-menu-icon {
+    display: block;
+    position: absolute;
+    font-size: 30px;
+    color: brown;
+
+    outline: none;
+    top: 15px;
+    right: 25px;
+    border: 2px solid gold;
+  }
+}

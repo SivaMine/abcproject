@@ -1,0 +1,7 @@
+.bslide-row-1 {
+  margin-top: 150px;
+}
+@media screen and (max-width: 780px) {
+  .slide {
+  }
+}

@@ -1,0 +1,40 @@
+.training-submenu {
+  width: 150px;
+  top: 73px;
+  padding-left: 10px;
+  position: absolute;
+  list-style: none;
+  text-align: start;
+}
+.training-submenu li {
+  background-color: rgb(20, 20, 159);
+  cursor: pointer;
+}
+.training-submenu li a:hover {
+  background: rgb(110, 126, 246);
+}
+.submenu-item1 {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+}
+.training-submenu.clicked {
+  display: none;
+}
+@media screen and (max-width: 780px) {
+  .training-submenu {
+    width: 150px;
+
+    padding-left: 10px;
+
+    top: 270px;
+    right: 20px;
+
+    position: absolute;
+    list-style: none;
+    text-align: start;
+  }
+}

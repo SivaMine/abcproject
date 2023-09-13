@@ -1,0 +1,31 @@
+.container-style {
+  height: 100%;
+  position: relative;
+}
+.description {
+  width: 300px;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  z-index: 1;
+
+  color: red;
+}
+.description h1 {
+  font-size: 50px;
+}
+
+.carousel-boullt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.carousel-boullt span {
+  width: 45px;
+  height: 12px;
+  background-color: black;
+  margin-left: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 3px 2px 2px blue;
+}
